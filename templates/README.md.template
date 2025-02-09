@@ -1,0 +1,47 @@
+# {package_name_upper}
+
+📌 **Package Description:**  
+{package_description}
+
+## 📦 Package Info
+- **Maintainer:** {maintainer}  
+- **Mail:** {email}  
+
+## 🚀 Dependencies  
+```xml
+{msgs}
+```
+
+## 📡 Publishers
+| Name | Topic | Type |
+| --- | --- | --- |
+{publishers_readme}
+
+## 📥 Subscribers
+| Name | Topic | Type |
+| --- | --- | --- |
+{subscribers_readme}
+
+## 📥 Parameters
+| Name | Info |
+| --- | --- |
+| example_param | Example ROS2 parameter. |
+
+## 🔧 Setup
+```bash
+cd ~/ros2_ws/src
+git clone <repository-url>
+cd ~/ros2_ws
+colcon build --packages-select {package_name}
+```
+
+## ▶️ Usage
+```bash
+ros2 run {package_name} {class_name}
+```
+or
+```bash
+ros2 launch {package_name} {package_name}.launch.xml
+```
+##
+This package was created with the support of **Electra**.
