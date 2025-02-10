@@ -1,5 +1,0 @@
-/**: 
-  ros__parameters:
-    {package_name}:
-      example_param: 20.0
-      
